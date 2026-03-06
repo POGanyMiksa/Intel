@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 
+main, header, footer {
+    background-color: rgb(167, 213, 255);
+}
+
 .header {
     background-color: rgba(0, 40, 90);
     color: white;
@@ -9,4 +13,18 @@
 img {
     margin: 0.5em;
     margin-right: 1em;
+}
+p {
+    line-height: 1.5;
+    text-indent: 5px;
+}
+
+.szoveg {
+    background-color: rgba(0, 0, 0, 0.26);
+    color: rgb(247, 247, 247);
+    padding: 1em;
+}
+
+h3 {
+    color: white;
 }
